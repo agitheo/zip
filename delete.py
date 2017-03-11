@@ -38,4 +38,4 @@ for file in os.listdir(directory):
     dst_file = os.path.join(destination, file)
     shutil.move(src_file, dst_file)
 
-print ("all files treated and placed to the destination directory")
+print ("all files treated and placed to the destination directory!!")
